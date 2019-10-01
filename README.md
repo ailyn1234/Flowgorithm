@@ -45,23 +45,9 @@ Reales (decimales) | 1.0,1.1,33.5....n
 Cadenas(Alfanumericos entre comillas) | "Hola", "A", "1"
 Booleanos | true, false,1,0
 
-Las expresiones de flujo de flujo permiten a los operadores utilizados en dos familias principales de lenguajes de programación.  La "familia C" (que incluye C, Java, C #) es mucho más simbólica.
+# Operadores
+http://www.flowgorithm.org/documentation/operators.htm
 
-Como ambas familias son compatibles, hay operadores redundantes. Se puede utilizar la "Familia C" o la "Familia básica". Esto le permite al estudiante usar los operadores que coinciden con el idioma que planean aprender más tarde.
-
-
-Operator	C Family
-----------|------------
-Negation	| !
-Modulo |	%	
-Equality	| ==
-Inequality	| !=
-Logical And	| &&
-Logical Or	| '||
-
-
-
-	
 3. Estructuras de control
 	* ***Rombo (if):*** Es un simbolo que sirve para la toma de decisiones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente o pueden compararse dentro de este "rombo"<br>![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control.jpg "If")
 	* ***Agregar una expresión y dos mensajes de salida***. Si la expresión es ***VERDADERA*** se irá por el camino del SI o TRUE o VERDADERO, si no, se irá por el camino del NO o FALSE o FALSO. Por ejemplo. En este diagrama, se evalua si la persona se siente bien o mal, si escribe alguien escribe desde su teclado mal,la expresión será verdadera por que dentro de la variable respuesta se guardara "mal". Por lo tanto en el rombo se evalua respuesta=="mal",comparandose "mal"=="mal". ![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control_Respuesta.jpg "Expresiones")
@@ -95,13 +81,3 @@ Logical Or	| '||
     * Tienda de autoservicio
 
 
-Level	Name	Operators	Notes
-----------|------------|----|---
-8 |	Unary 	- ! not	In Visual Basic, "not" precedence level is far lower - above "and", but below all relational operators.
-7 |	Exponent	^	The exponent operator does not exist in C# or Java.
-6 |	Multiply	* / % mod	Division will always be high-precision (floating point)
-5 |	Addition	+ -	In Flowgorithm, "+" will only work with numbers.
-4 |	Concatenate	&	C# and Java use the ambiguous "+" operator for addition and concatenation.
-3 |	Relational	> >= < <= == = != <>	
-2 |	Logical And	and &&	
-1 |	Logical Or	or ||
