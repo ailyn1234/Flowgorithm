@@ -9,7 +9,7 @@ _Adaptado: @IoTeacher_
 
 _Este es un curso de metodología de la programación de apoyo a introducción al aprendizaje de lógica. La herramienta que se utilizará es  Flowgorithm, que permite a generar  diagramas de flujo y exportar distintos lenguajes_
 
-### Pre-requisitos :white_check_mark:
+### Pre-requisitos :white_check_mark: POR FAVOR USARLO EN INGLES, IMPORTANTE PARA TODO PRINCIPIANTE.
 
 * [Flowgorithm](http://www.flowgorithm.org/) - Software a utilizar Windows 7 o 10 de 32 y 64 bits, (laboratorio ITT es 32 bits).
 
