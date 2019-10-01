@@ -62,12 +62,12 @@ Booleanos | true, false,1,0
 http://www.flowgorithm.org/documentation/operators.htm
 
 ## Serie de ejercicios
-    * [Sumar valores](https://github.com/IamLAM/Flowgorithm/blob/master/01_SumarValores.fprg)
-    * [Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
-    * [Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
-    * [Josefina:Strings](https://github.com/IamLAM/Flowgorithm/blob/master/04_Josefina.fprg) 
-    * [Josefina:Integers](https://github.com/IamLAM/Flowgorithm/blob/master/05_JosefinaN.fprg) 
-    * [Obtener promedios](https://github.com/IamLAM/Flowgorithm/blob/master/06_ObtenerPromedio.fprg	) 
+* [Sumar valores](https://github.com/IamLAM/Flowgorithm/blob/master/01_SumarValores.fprg)
+    *[Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
+    *[Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
+    *[Josefina:Strings](https://github.com/IamLAM/Flowgorithm/blob/master/04_Josefina.fprg) 
+    *[Josefina:Integers](https://github.com/IamLAM/Flowgorithm/blob/master/05_JosefinaN.fprg) 
+    *[Obtener promedios](https://github.com/IamLAM/Flowgorithm/blob/master/06_ObtenerPromedio.fprg	) 
 	* [Entrenador](https://github.com/IamLAM/Flowgorithm/blob/master/07_Entrenador.fprg) 
 
  	* Catalogo de ejercicios:Preparar una hamburguesa  
@@ -83,4 +83,39 @@ http://www.flowgorithm.org/documentation/operators.htm
     * Simular un reloj digital
     * Tienda de autoservicio
 
+
+PROBLEMA
+   Escriba un programa que tome una matriz de enteros de entrada que contenga números positivos y negativos y descubra el promedio de positivo y promedio de números negativos.
+
+Ejemplo:
+Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, la salida será:
+Promedio de números positivos: 5.25
+Promedio de números negativos: -2.66
+
+```
+//Poner los comentarios pertinentes
+#include <iostream>
+using namespace std;
+int main()
+{
+  int arr[10];  //Arreglo de 10 posiciones
+  float avg_pos=0.0,avg_neg=0.0;
+
+  for(int i=0;i<10;i++)
+  {
+    cout << "Enter Number: " << "[" << i << "]:\n";
+    cin >> arr[i];   // llenar el arreglo
+  }
+
+//Escriba su lógica aqui abajo
+
+
+
+
+
+//end
+  cout << " positivenumbers: \n" << avg_pos;
+  cout << "negativenumbers:\n" << avg_neg;  
+  return 0;
+}
 
