@@ -63,37 +63,25 @@ http://www.flowgorithm.org/documentation/operators.htm
 
 ## Serie de ejercicios
 * [Sumar valores](https://github.com/IamLAM/Flowgorithm/blob/master/01_SumarValores.fprg)
-    *[Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
-    *[Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
-    *[Josefina:Strings](https://github.com/IamLAM/Flowgorithm/blob/master/04_Josefina.fprg) 
-    *[Josefina:Integers](https://github.com/IamLAM/Flowgorithm/blob/master/05_JosefinaN.fprg) 
-    *[Obtener promedios](https://github.com/IamLAM/Flowgorithm/blob/master/06_ObtenerPromedio.fprg	) 
-	* [Entrenador](https://github.com/IamLAM/Flowgorithm/blob/master/07_Entrenador.fprg) 
+* [Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
+* [Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
+* [Josefina:Strings](https://github.com/IamLAM/Flowgorithm/blob/master/04_Josefina.fprg) 
+* [Josefina:Integers](https://github.com/IamLAM/Flowgorithm/blob/master/05_JosefinaN.fprg) 
+* [Obtener promedios](https://github.com/IamLAM/Flowgorithm/blob/master/06_ObtenerPromedio.fprg	) 
+* [Entrenador](https://github.com/IamLAM/Flowgorithm/blob/master/07_Entrenador.fprg) 
 
- 	* Catalogo de ejercicios:Preparar una hamburguesa  
-    * Ordenamientos
-    * Par e impar
-    * Solicita una pizza
-    * Adivina el numero
-    * Algebra básica
-    * Gestión de agenda
-    * Calculo de figuras
-    * Adivina el acertijo
-    * Conversiones 
-    * Simular un reloj digital
-    * Tienda de autoservicio
-
-
-PROBLEMA
+ 
+# PROBLEMA
    Escriba un programa que tome una matriz de enteros de entrada que contenga números positivos y negativos y descubra el promedio de positivo y promedio de números negativos.
 
 Ejemplo:
-Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, la salida será:
+_Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, la salida será:
 Promedio de números positivos: 5.25
-Promedio de números negativos: -2.66
+PRomedio de números negativos: -2.66_
 
 ```
-//Poner los comentarios pertinentes
+//Poner los comentarios pertinentes, es parte de la evaluación.
+//
 #include <iostream>
 using namespace std;
 int main()
@@ -107,7 +95,7 @@ int main()
     cin >> arr[i];   // llenar el arreglo
   }
 
-//Escriba su lógica aqui abajo
+// Escriba su lógica aqui abajo
 
 
 
