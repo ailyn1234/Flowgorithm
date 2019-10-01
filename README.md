@@ -43,7 +43,19 @@ Reales (decimales) | 1.0,1.1,33.5....n
 Cadenas(Alfanumericos entre comillas) | "Hola", "A", "1"
 Booleanos | true, false,1,0
 
+Las expresiones de flujo de flujo permiten a los operadores utilizados en dos familias principales de lenguajes de programación. La "familia BÁSICA" contiene palabras clave y operadores en inglés. La "familia C" (que incluye C, Java, C #) es mucho más simbólica.
 
+Como ambas familias son compatibles, hay operadores redundantes. Se puede utilizar la "Familia C" o la "Familia básica". Esto le permite al estudiante usar los operadores que coinciden con el idioma que planean aprender más tarde.
+
+
+Operador  |	C familia   |	Familia BÁSICA
+----------|------------|------------
+Negación    |	!	| no
+Módulo o residuo |  	%    |	mod
+Igualdad	|==	|=
+Desigualdad	! =	<>
+Lógico y	|&&	|y
+Lógico o	| ||	| o
 	
 3. Estructuras de control
 	* ***Rombo (if):*** Es un simbolo que sirve para la toma de decisiones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente o pueden compararse dentro de este "rombo"<br>![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control.jpg "If")
