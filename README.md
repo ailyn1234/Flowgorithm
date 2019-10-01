@@ -2,6 +2,7 @@
 
 _Autor: Luis Angel Monge_
 profesor@luismonge.com.mx
+_Adaptado: @IoTeacher
 
 ## Descripción
 
