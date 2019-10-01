@@ -45,8 +45,6 @@ Reales (decimales) | 1.0,1.1,33.5....n
 Cadenas(Alfanumericos entre comillas) | "Hola", "A", "1"
 Booleanos | true, false,1,0
 
-# Operadores
-http://www.flowgorithm.org/documentation/operators.htm
 
 3. Estructuras de control
 	* ***Rombo (if):*** Es un simbolo que sirve para la toma de decisiones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente o pueden compararse dentro de este "rombo"<br>![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control.jpg "If")
@@ -58,7 +56,10 @@ http://www.flowgorithm.org/documentation/operators.htm
 	* [Descargar Ejercicio Completo](https://github.com/IamLAM/Flowgorithm/blob/master/EstructuradeControl.fprg)
 
 
-4. Serie de ejercicios
+# Operadores
+http://www.flowgorithm.org/documentation/operators.htm
+
+## Serie de ejercicios
     * [Sumar valores](https://github.com/IamLAM/Flowgorithm/blob/master/01_SumarValores.fprg)
     * [Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
     * [Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
