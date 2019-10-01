@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rene"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-09-30 11:33:05 PM"/>
+        <attribute name="created" value="cmVuZTtSRU5FMkFCMTsyMDE5LTA5LTMwOzEyOjU5OjM1IEFNOzIyMzI="/>
+        <attribute name="edited" value="cmVuZTtSRU5FMkFCMTsyMDE5LTA5LTMwOzExOjMzOjA1IFBNOzE7MjM0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa que suma de 10 numero solo los pares."/>
+            <declare name="n" type="Integer" array="True" size="10"/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <for variable="c" start="0" end="9" direction="inc" step="1">
+                <input variable="n[c]"/>
+                <comment text="Modo es simbolo % que es el residuo de la division"/>
+                <if expression="n[c]%2 = 0">
+                    <then>
+                        <comment text="&amp; es llamada internacionalmente CONCATENACION o union de en una cadena."/>
+                        <output expression="&quot;Numero Par &quot; &amp; n[c]" newline="True"/>
+                        <assign variable="sum" expression="sum+n[c]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Total de numeros pares son: &quot; &amp; sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
