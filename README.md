@@ -15,6 +15,8 @@ _Este es un curso de metodología de la programación de apoyo a introducción a
 
 
 ### Temario
+Documentacion en el programa es importante, para la formalidad del codigo antes de entregarlo a revision.
+![](img/Comentarios.png)
 
 1. Entrada y salida de datos
 	* ***Salida(Output):*** Es un simbolo en forma de rectangulo inclinado, que sirve para realizar preguntas, dar instrucciones, mostrar resultados. Los datos de entrada deben escribirse entre comillas, la excepción es cuando quieres mostrar el resultado de una variable
