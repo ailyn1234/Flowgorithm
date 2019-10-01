@@ -53,7 +53,7 @@ Operador  |	C familia   |	Familia BÁSICA
 Negación    |	!	| no
 Módulo o residuo |  	%    |	mod
 Igualdad	|==	|=
-Desigualdad	! =	<>
+Desigualdad	| !=	| <>
 Lógico y	|&&	|y
 Lógico o	| ||	| o
 	
