@@ -2,15 +2,16 @@
 
 _Autor: Luis Angel Monge_
 profesor@luismonge.com.mx
-_Adaptado: @IoTeacher
+
+_Adaptado: @IoTeacher_
 
 ## Descripción
 
-_Este es un curso de metodología de la programación que sirve como introducción al aprendizaje de lógica. La herramienta que se utilizará es  Flowgorithm, que permite a generar  diagramas de flujo y exportar distintos lenguajes_
+_Este es un curso de metodología de la programación de apoyo a introducción al aprendizaje de lógica. La herramienta que se utilizará es  Flowgorithm, que permite a generar  diagramas de flujo y exportar distintos lenguajes_
 
 ### Pre-requisitos :white_check_mark:
 
-* [Flowgorithm](http://www.flowgorithm.org/) - Software a utilizar
+* [Flowgorithm](http://www.flowgorithm.org/) - Software a utilizar Windows 7 o 10 de 32 y 64 bits, (laboratorio ITT es 32 bits).
 
 
 ### Temario
@@ -44,19 +45,22 @@ Reales (decimales) | 1.0,1.1,33.5....n
 Cadenas(Alfanumericos entre comillas) | "Hola", "A", "1"
 Booleanos | true, false,1,0
 
-Las expresiones de flujo de flujo permiten a los operadores utilizados en dos familias principales de lenguajes de programación. La "familia BÁSICA" contiene palabras clave y operadores en inglés. La "familia C" (que incluye C, Java, C #) es mucho más simbólica.
+Las expresiones de flujo de flujo permiten a los operadores utilizados en dos familias principales de lenguajes de programación.  La "familia C" (que incluye C, Java, C #) es mucho más simbólica.
 
 Como ambas familias son compatibles, hay operadores redundantes. Se puede utilizar la "Familia C" o la "Familia básica". Esto le permite al estudiante usar los operadores que coinciden con el idioma que planean aprender más tarde.
 
 
-Operador  |	C familia   |	Familia BÁSICA
-----------|------------|------------
-Negación    |	!	| no
-Módulo o residuo |  	%    |	mod
-Igualdad	|==	|=
-Desigualdad	| !=	| <>
-Lógico y	|&&	|y
-Lógico o	| ||	| o
+Operator	C Family
+----------|------------
+Negation	| !
+Modulo |	%	
+Equality	| ==
+Inequality	| !=
+Logical And	| &&
+Logical Or	| '||
+
+
+
 	
 3. Estructuras de control
 	* ***Rombo (if):*** Es un simbolo que sirve para la toma de decisiones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente o pueden compararse dentro de este "rombo"<br>![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control.jpg "If")
@@ -89,3 +93,15 @@ Lógico o	| ||	| o
     * Conversiones 
     * Simular un reloj digital
     * Tienda de autoservicio
+
+
+Level	Name	Operators	Notes
+----------|------------|----|---
+8 |	Unary 	- ! not	In Visual Basic, "not" precedence level is far lower - above "and", but below all relational operators.
+7 |	Exponent	^	The exponent operator does not exist in C# or Java.
+6 |	Multiply	* / % mod	Division will always be high-precision (floating point)
+5 |	Addition	+ -	In Flowgorithm, "+" will only work with numbers.
+4 |	Concatenate	&	C# and Java use the ambiguous "+" operator for addition and concatenation.
+3 |	Relational	> >= < <= == = != <>	
+2 |	Logical And	and &&	
+1 |	Logical Or	or ||
