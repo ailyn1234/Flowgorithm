@@ -75,7 +75,8 @@ http://www.flowgorithm.org/documentation/operators.htm
    Escriba un programa que tome una matriz de enteros de entrada que contenga números positivos y negativos y descubra el promedio de positivo y promedio de números negativos.
 
 Ejemplo:
-_Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, la salida será:
+_Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, 
+la salida será:
 Promedio de números positivos: 5.25
 PRomedio de números negativos: -2.66_
 
