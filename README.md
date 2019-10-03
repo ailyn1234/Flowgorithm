@@ -15,8 +15,6 @@ _Este es un curso de metodología de la programación de apoyo a introducción a
 
 
 ### Temario
-Documentacion en el programa es importante, para la formalidad del codigo antes de entregarlo a revision.
-![](img/Comentarios.png)
 
 1. Entrada y salida de datos
 	* ***Salida(Output):*** Es un simbolo en forma de rectangulo inclinado, que sirve para realizar preguntas, dar instrucciones, mostrar resultados. Los datos de entrada deben escribirse entre comillas, la excepción es cuando quieres mostrar el resultado de una variable
@@ -48,31 +46,56 @@ Cadenas(Alfanumericos entre comillas) | "Hola", "A", "1"
 Booleanos | true, false,1,0
 
 
+	
 3. Estructuras de control
-	* ***Rombo (if):*** Es un simbolo que sirve para la toma de decisiones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente o pueden compararse dentro de este "rombo"<br>![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control.jpg "If")
-	* ***Agregar una expresión y dos mensajes de salida***. Si la expresión es ***VERDADERA*** se irá por el camino del SI o TRUE o VERDADERO, si no, se irá por el camino del NO o FALSE o FALSO. Por ejemplo. En este diagrama, se evalua si la persona se siente bien o mal, si escribe alguien escribe desde su teclado mal,la expresión será verdadera por que dentro de la variable respuesta se guardara "mal". Por lo tanto en el rombo se evalua respuesta=="mal",comparandose "mal"=="mal". ![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control_Respuesta.jpg "Expresiones")
+	* ***Rombo (if):*** Es un simbolo que sirve para la toma de decisiones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente, se comparan dentro de este "rombo"<br>![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control.jpg "If")
+	* ***Agregar una expresión y dos mensajes de salida***. Si la expresión es ***VERDADERA*** se irá por el camino del SI o TRUE o VERDADERO, si no, se irá por el camino del NO o FALSE o FALSO. Por ejemplo. En este diagrama, se evalua si la persona se siente mal. Es decir, si alguien escribe desde su teclado la palabra mal,la expresión será verdadera por que dentro de la variable respuesta se guardara "mal". Por lo tanto en el rombo se evalua respuesta=="mal",comparandose "mal"=="mal". ![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control_Respuesta.jpg "Expresiones")
 	
 	* ***Resultado final:***<br>
 	![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/Control_Completo.jpg "Expresiones Completo")
 
 	* [Descargar Ejercicio Completo](https://github.com/IamLAM/Flowgorithm/blob/master/EstructuradeControl.fprg)
 
+4. Estructuras Iterativas
+	* ***Hexágono (while):*** Es un simbolo que sirve ciclar o repetir n veces un conjunto de instrucciones. Dentro de este simbolo se deben añadir expresiones relacionales o lógicas como: a<6, (a==n)||(a>10),a!=5, a>=8, a<=1, entre muchas otras. Por lo tanto, los valores que hayas capturado previamente, se comparan dentro de este "hexágono". Si la condición es válida,estará repitiendose el ciclo (TRUE), de lo contrario será FALSE<br>
+		* ![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/CicloWhile.jpg "while")
+		* [Descargar Ejercicio Completo](https://github.com/IamLAM/Flowgorithm/blob/master/EstructuraIterativaWhile.fprg)
+	* ***Hexágono (do):*** Es un simbolo que sirve ciclar o repetir n veces un conjunto de instrucciones. La diferencia respecto a while, es que por lo menos ingresará una vez antes de validar  la expresión relacional dentro del "Hexágono". Por lo tanto, los valores que hayas capturado previamente, se comparan dentro de este "hexágono". Si la condición es válida,estará repitiendose el ciclo (TRUE), de lo contrario será FALSE<br>
+		* ![alt text](https://github.com/IamLAM/Flowgorithm/blob/master/img/CicloDoWhile.jpg "do")
+		* [Descargar Ejercicio Completo](https://github.com/IamLAM/Flowgorithm/blob/master/EstructuraIterativaDoWhile.fprg)
 
-# Operadores
-http://www.flowgorithm.org/documentation/operators.htm
+# Documentacion
 
-## Serie de ejercicios
-* [Sumar valores](https://github.com/IamLAM/Flowgorithm/blob/master/01_SumarValores.fprg)
-* [Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
-* [Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
-* [Josefina:Strings](https://github.com/IamLAM/Flowgorithm/blob/master/04_Josefina.fprg) 
-* [Josefina:Integers](https://github.com/IamLAM/Flowgorithm/blob/master/05_JosefinaN.fprg) 
-* [Obtener promedios](https://github.com/IamLAM/Flowgorithm/blob/master/06_ObtenerPromedio.fprg	) 
-* [Entrenador](https://github.com/IamLAM/Flowgorithm/blob/master/07_Entrenador.fprg) 
+en el programa es importante, para la formalidad del codigo antes de entregarlo a revision.
 
+![](img/Comentarios.png)
+
+
+5. Serie de ejercicios
+    * [Sumar valores](https://github.com/IamLAM/Flowgorithm/blob/master/01_SumarValores.fprg)
+    * [Area Triangulo](https://github.com/IamLAM/Flowgorithm/blob/master/02_AreaTriangulo.fprg) 
+    * [Expresión Matemática](https://github.com/IamLAM/Flowgorithm/blob/master/03_Expresi%C3%B3nMatem%C3%A1tica.fprg) 
+    * [Josefina:Strings](https://github.com/IamLAM/Flowgorithm/blob/master/04_Josefina.fprg) 
+    * [Josefina:Integers](https://github.com/IamLAM/Flowgorithm/blob/master/05_JosefinaN.fprg) 
+    * [Obtener promedios](https://github.com/IamLAM/Flowgorithm/blob/master/06_ObtenerPromedio.fprg	) 
+	* [Entrenador](https://github.com/IamLAM/Flowgorithm/blob/master/07_Entrenador.fprg) 
+	* [Fiesta](https://github.com/IamLAM/Flowgorithm/blob/master/08_Fiesta.fprg)
+ 	* Catalogo de ejercicios:Preparar una hamburguesa  
+    * Ordenamientos
+    * Par e impar
+    * Solicita una pizza
+    * Adivina el numero
+    * Algebra básica
+    * Gestión de agenda
+    * Calculo de figuras
+    * Adivina el acertijo
+    * Conversiones 
+    * Simular un reloj digital
+    * Tienda de autoservicio
+	
  
-# PROBLEMA
-   Escriba un programa que tome una matriz de enteros de entrada que contenga números positivos y negativos y descubra el promedio de positivo y promedio de números negativos.
+# PROBLEMA NIVEL INTERMEDIO
+   Escriba un programa que tome una matriz de enteros de entrada que contenga números positivos y negativos y descubra el promedio de positivo y promedio de números negativos.(este problema es candidato a ciclos o bucles)
 
 Ejemplo:
 _Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, 
