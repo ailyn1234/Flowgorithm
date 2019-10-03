@@ -65,7 +65,7 @@ Booleanos | true, false,1,0
 
 # Documentacion
 
-en el programa es importante, para la formalidad del codigo antes de entregarlo a revision.
+Los COMENTARIOS en el programa es importante el código antes de entregarlo a revision.
 
 ![](img/Comentarios.png)
 
