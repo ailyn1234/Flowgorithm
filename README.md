@@ -11,8 +11,7 @@ _Este es un curso de metodología de la programación de apoyo a introducción a
 
 ### Pre-requisitos :white_check_mark: POR FAVOR USARLO EN INGLES, IMPORTANTE PARA TODO PRINCIPIANTE.
 
-* [Flowgorithm](http://www.flowgorithm.org/) - Software a utilizar Windows 7 o 10 de 32 y 64 bits, (laboratorio ITT es 32 bits).
-
+* [Flowgorithm](http://www.flowgorithm.org/) - Software a utilizar Windows 7 o 10 de 32 y 64 bits, (laboratorio ITT es 32 bits). Y su tutorial http://www.flowgorithm.org/documentation/tutorial
 
 ### Temario
 
