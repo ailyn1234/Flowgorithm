@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gradi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-03 11:36:30 p. m."/>
+        <attribute name="created" value="Z3JhZGk7REVTS1RPUC0xMFFLNklBOzIwMTktMTAtMDM7MTE6MDQ6MDkgcC4gbS47MzAxMA=="/>
+        <attribute name="edited" value="Z3JhZGk7REVTS1RPUC0xMFFLNklBOzIwMTktMTAtMDM7MTE6MzY6MzAgcC4gbS47MTszMTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="definir" type="Real" array="False" size=""/>
+            <declare name="N1, N2, R" type="Integer" array="False" size=""/>
+            <assign variable="calcula" expression="positivo"/>
+            <assign variable="calcula" expression="numero"/>
+            <if expression="N1&gt;0">
+                <then/>
+                <else/>
+            </if>
+            <assign variable="calcula" expression="positivo"/>
+            <assign variable="calcula" expression="numero"/>
+            <if expression="N2&gt;0">
+                <then/>
+                <else/>
+            </if>
+            <assign variable="calcula" expression="R+N1+N2"/>
+            <assign variable="resultado" expression="resultado"/>
+        </body>
+    </function>
+</flowgorithm>
