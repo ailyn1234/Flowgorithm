@@ -97,10 +97,11 @@ Los COMENTARIOS en el programa es importante el código antes de entregarlo a re
    Escriba un programa que tome una matriz de enteros de entrada que contenga números positivos y negativos y descubra el promedio de positivo y promedio de números negativos.(este problema es candidato a ciclos o bucles)
 
 Ejemplo:
-_Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, 
+
+Si el usuario proporciona la entrada 9, -1, -1, -4, 1.5, -4.2, -3.1, 
 la salida será:
-Promedio de números positivos: 5.25
-PRomedio de números negativos: -2.66_
+- Promedio de números positivos: 5.25
+- Promedio de números negativos: -2.66
 
 ```
 //Poner los comentarios pertinentes, es parte de la evaluación.
